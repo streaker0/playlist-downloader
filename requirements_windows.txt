@@ -1,0 +1,17 @@
+# Core dependencies (required)
+spotipy==2.23.0
+pytube==15.0.0
+pydub==0.25.1
+requests==2.31.0
+mutagen==1.47.0
+colorama==0.4.6
+tqdm==4.66.1
+
+# Optional fingerprinting (may fail on some Windows systems)
+# Uncomment these if you want audio fingerprinting:
+#acoustid==1.2.2
+# librosa==0.10.1
+# scipy==1.11.4
+# numpy==1.24.3
+
+# Note: chromaprint requires system libraries and may not install via pip on Windows
